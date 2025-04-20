@@ -1,0 +1,64 @@
+  Project7.DicChoice.resources - Embedded, ContainedInManifestFile, 
+  Project7.DicCreate.resources - Embedded, ContainedInManifestFile, 
+  Project7.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Project7.WordChange.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project7, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class DictionaryOW: AutoLayout, AnsiClass, Class, Public
+    Void .ctor(System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetName(): PrivateScope, Public, HideBySig
+    SetName(String): PrivateScope, Public, HideBySig
+    GetSourceFile(): PrivateScope, Public, HideBySig
+    SetSourceFile(String): PrivateScope, Public, HideBySig
+    GetId(): PrivateScope, Public, HideBySig
+    SetId(Int32): PrivateScope, Public, HideBySig
+    AllDictionaries(): PrivateScope, Public, Static, HideBySig
+    GetCurrent(): PrivateScope, Public, Static, HideBySig
+Class Project7.DicCreate: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class DataSourceEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.Windows.Forms.DataGridView, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.DataGridView DataGridViewSource : Public
+    System.String SourceFile : Public
+Class Project7.DicChoice: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Events:
+    System.EventHandler`1[DataSourceEventArgs] DataSourceChanged: SpecialName
+  Methods:
+    add_DataSourceChanged(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_DataSourceChanged(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    SaveDics(): PrivateScope, Public, HideBySig
+    LoadData(): PrivateScope, Public, HideBySig
+    GridUpdate(): PrivateScope, Public, HideBySig
+Class Project7.WordChange: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WC_setNewWord(String): PrivateScope, Public, HideBySig
+    WC_setNewTranslation(String): PrivateScope, Public, HideBySig
+    WC_setNewTrans(String): PrivateScope, Public, HideBySig
+    WC_getNewWord(): PrivateScope, Public, HideBySig
+    WC_getNewTranslation(): PrivateScope, Public, HideBySig
+    WC_getNewTrans(): PrivateScope, Public, HideBySig
+Class Project7.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

@@ -1,0 +1,16 @@
+﻿  DicChoice.cpp
+D:\прога\файлы\я\8\Project7\Project7\DicCreate.h(148,69): warning C4129: "d": нераспознанная escape-последовательность символов
+  (компиляция исходного файла "DicChoice.cpp")
+  
+  DicCreate.cpp
+D:\прога\файлы\я\8\Project7\Project7\DicCreate.h(148,69): warning C4129: "d": нераспознанная escape-последовательность символов
+  (компиляция исходного файла "DicCreate.cpp")
+  
+  MyForm.cpp
+D:\прога\файлы\я\8\Project7\Project7\DicCreate.h(148,69): warning C4129: "d": нераспознанная escape-последовательность символов
+  (компиляция исходного файла "MyForm.cpp")
+  
+D:\прога\файлы\я\8\Project7\Project7\MyForm.cpp(5,6): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  Создание кода...
+  DicChoice.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project7.vcxproj -> D:\прога\файлы\я\8\Project7\x64\Release\Project7.exe

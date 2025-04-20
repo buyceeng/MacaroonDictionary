@@ -1,0 +1,6 @@
+D:\прога\файлы\я\8\Project7\Project7\x64\Release\Project7.vcxproj.AssemblyReference.cache
+D:\прога\файлы\я\8\Project7\Project7\x64\Release\Project7.DicChoice.resources
+D:\прога\файлы\я\8\Project7\Project7\x64\Release\Project7.DicCreate.resources
+D:\прога\файлы\я\8\Project7\Project7\x64\Release\Project7.MyForm.resources
+D:\прога\файлы\я\8\Project7\Project7\x64\Release\Project7.WordChange.resources
+D:\прога\файлы\я\8\Project7\Project7\x64\Release\Project7.vcxproj.GenerateResource.cache
